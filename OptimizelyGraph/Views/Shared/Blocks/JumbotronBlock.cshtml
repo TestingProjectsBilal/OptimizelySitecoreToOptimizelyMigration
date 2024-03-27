@@ -1,0 +1,23 @@
+@model JumbotronBlock
+@using WebComponents
+
+
+<div style="background-image:url('@Url.ContentUrl(Model.Image)')">
+    <div class="jumbotron-dimmer"></div>
+    <div class="jumbotron-inner">
+        <h1 class="display-5 mb-4" epi-property="@Model.Heading">@Model.Heading</h1>
+        <p class="lead mb-5" epi-property="@Model.SubHeading">@Model.SubHeading</p>
+        <a class="btn btn-primary btn-lg" href="@Url.ContentUrl(Model.ButtonLink)" id="jumboLink" epi-property="@Model.ButtonText">@Model.ButtonText</a>
+    </div>
+    <div class="mb-5">
+        <!-- Lit component goes here -->
+        <my-counter initialCount="5"
+                    step="2"
+                    maxValue="10"
+                    minValue="0"
+                    customMessage="Add 2"></my-counter>
+    </div>
+
+    @*<script type="module" src="/WebComponents/Client/src/Counter.ts"></script>*@
+
+</div>

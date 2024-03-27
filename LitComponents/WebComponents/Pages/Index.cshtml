@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <!-- I'm a lit-powered web component -->
+
+</div>
+
+<div class="mb-5">
+
+    <!-- Set multiple dynamic properties -->
+
+    <my-counter
+        initialCount="5"
+        step="2"
+        maxValue="10"
+        minValue="0"
+        customMessage="Add 2"
+    ></my-counter>
+
+    
+</div>
+
+
+ @* <script type="module" src="/WebComponents/Client/src/Counter.ts"></script> *@
+
+
+
+<div>
+    <fetch-data url="@Url.Action("Get", "WeatherForecast")"></fetch-data>
+</div>
+
+<div>
+    <random-image></random-image>
+</div>

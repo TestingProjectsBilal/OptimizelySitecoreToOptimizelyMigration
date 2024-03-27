@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="EPiServer" />
+    <Using Include="EPiServer.Core" />
+    <Using Include="EPiServer.DataAbstraction" />
+    <Using Include="EPiServer.DataAnnotations" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Baaijte.Optimizely.ImageSharp.Web" Version="2.2.2" />
+    <PackageReference Include="EPiServer.CMS" Version="12.25.1" />
+    <PackageReference Include="EPiServer.Find.Cms" Version="16.0.1" />
+    <PackageReference Include="EPiServer.Forms" Version="5.8.0" />
+    <PackageReference Include="ImageResizer.Plugins.WebP" Version="4.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.3" />
+    <PackageReference Include="PictureRenderer.Optimizely" Version="3.1.0" />
+    <PackageReference Include="SixLabors.ImageSharp.Web" Version="3.1.1" />
+    <PackageReference Include="Verndale.Sitemap.Robots.Generator" Version="5.0.0.18" />
+    <PackageReference Include="Vite.AspNetCore" Version="1.12.0" />
+    <PackageReference Include="Wangkanai.Detection" Version="8.1.0" />
+    <PackageReference Include="EPiServer.ContentDeliveryApi.Cms" Version="3.9.1" />
+    <PackageReference Include="EPiServer.ContentDeliveryApi.Core" Version="3.9.1" />
+	<PackageReference Include="EPiServer.ContentDefinitionsApi" Version="3.9.0" />
+	<PackageReference Include="EPiServer.ContentManagementApi" Version="3.9.0" />
+    <PackageReference Include="EPiServer.OpenIDConnect" Version="3.9.0" />
+    <PackageReference Include="EPiServer.OpenIDConnect.UI" Version="3.9.0" />
+    <PackageReference Include="Optimizely.ContentGraph.Cms" Version="3.5.1" />
+  	<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Translations\**\*" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="rangeForm.js" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="rangeForm.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\LitComponents\WebComponents\WebComponents.csproj" />
+    <ProjectReference Include="..\..\Users\OVRLOD\Downloads\Baaijte.Optimizely.ImageSharp.Web-main\Baaijte.Optimizely.ImageSharp.Web-main\src\Baaijte.Optimizely.ImageSharp.Web\Baaijte.Optimizely.ImageSharp.Web.csproj" />
+    <ProjectReference Include="..\T4\T4.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Models\Pages\" />
+  </ItemGroup>
+</Project>

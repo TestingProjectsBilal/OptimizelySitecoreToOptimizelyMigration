@@ -1,0 +1,59 @@
+Sitecore
+
+,Field Template,Field Name,Field Type,Field Guid
+Article
+,_HasPageContent,Body,Rich Text,d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+,_HasPageContent,Image,Image,9492e0bb-9df9-46e7-8188-ec795c4ade44
+,_HasPageContent,Summary,Rich Text,ac3fd4db-8266-476d-9635-67814d91e901
+,_HasPageContent,Title,Single-Line Text,c30a013f-3cc8-4961-9837-1c483277084a
+,_IndexedItem,IncludeInSearchResults,Checkbox,8d5c486e-a0e3-4dbe-9a4a-cdff93594bda
+,_Navigable,NavigationTitle,Single-Line Text,1b483e91-d8c4-4d19-ba03-462074b55936
+,_Navigable,ShowChildren,Checkbox,68016087-aa00-45d6-922a-678475c50d4a
+,_Navigable,ShowInNavigation,Checkbox,5585a30d-b115-4753-93ce-422c3455deb2
+,_OpenGraph,OpenGraphDescription,Multi-Line Text,a12d5346-87ee-484d-83c5-f1e8e1b99666
+,_OpenGraph,OpenGraphImage,Image,11f41661-e5fe-44e7-b8da-7cff2d39b4b2
+,_OpenGraph,OpenGraphTitle,Single-Line Text,0ee2f208-1fee-42fc-8051-6696d49a92bf
+,_PageAssets,CssCode,Multi-Line Text,06a96efc-f2e5-45c3-a7dc-4dddfa366cc0
+,_PageAssets,InheritAssets,Checkbox,f19e8a50-9950-4861-9e66-9598a1898e71
+,_PageAssets,JavascriptCodeBottom,Multi-Line Text,b3ba9ea9-d0a1-49df-9f4b-28fa5d353dc8
+,_PageAssets,JavascriptCodeTop,Multi-Line Text,d79d9ddd-2774-42f4-94c3-50c892f6e13d
+,_PageMetadata,BrowserTitle,Single-Line Text,ca0479ce-0bfe-4522-83de-ba688b380a78
+,_PageMetadata,CanIndex,Checkbox,683d7237-206a-488f-9dee-4a4e41fb161d
+,_PageMetadata,CustomMetaData,Name Value List,167aba77-5172-42af-9f9e-00299113839e
+,_PageMetadata,MetaDescription,Multi-Line Text,bb7a38c0-323c-4f81-8eb9-288abf7c4638
+,_PageMetadata,MetaKeywords,Treelist,4b16f930-73c9-4643-bb1b-00f06e60a073
+,_PageMetadata,SeoFollowLinks,Checkbox,0dca829c-9fce-41f5-9990-c6182fefe905
+
+
+Employee
+,_Employee,Email,Single-Line Text,5978b330-1d46-4065-8751-f74bf17d815e
+,_Employee,Mobile,Single-Line Text,25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+,_Employee,Telephone,Single-Line Text,8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+,_Employee,Biography,Rich Text,0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+,_Employee,BlogLink,General Link,69a846d9-4c7f-435c-a8dc-87e2d7359cfa
+,_Employee,FacebookLink,General Link,d31889c0-e34c-4904-a6f3-f3d92d314aa9
+,_Employee,LinkedInLink,General Link,2b13dfab-3450-45ef-93f4-beaa6f544fa6
+,_Employee,TwitterLink,General Link,6de98ef7-1209-40a3-a63e-16dbef015211
+,_IndexedItem,IncludeInSearchResults,Checkbox,8d5c486e-a0e3-4dbe-9a4a-cdff93594bda
+,_Navigable,NavigationTitle,Single-Line Text,1b483e91-d8c4-4d19-ba03-462074b55936
+,_Navigable,ShowChildren,Checkbox,68016087-aa00-45d6-922a-678475c50d4a
+,_Navigable,ShowInNavigation,Checkbox,5585a30d-b115-4753-93ce-422c3455deb2
+,_OpenGraph,OpenGraphDescription,Multi-Line Text,a12d5346-87ee-484d-83c5-f1e8e1b99666
+,_OpenGraph,OpenGraphImage,Image,11f41661-e5fe-44e7-b8da-7cff2d39b4b2
+,_OpenGraph,OpenGraphTitle,Single-Line Text,0ee2f208-1fee-42fc-8051-6696d49a92bf
+,_PageAssets,CssCode,Multi-Line Text,06a96efc-f2e5-45c3-a7dc-4dddfa366cc0
+,_PageAssets,InheritAssets,Checkbox,f19e8a50-9950-4861-9e66-9598a1898e71
+,_PageAssets,JavascriptCodeBottom,Multi-Line Text,b3ba9ea9-d0a1-49df-9f4b-28fa5d353dc8
+,_PageAssets,JavascriptCodeTop,Multi-Line Text,d79d9ddd-2774-42f4-94c3-50c892f6e13d
+,_PageMetadata,BrowserTitle,Single-Line Text,ca0479ce-0bfe-4522-83de-ba688b380a78
+,_PageMetadata,CanIndex,Checkbox,683d7237-206a-488f-9dee-4a4e41fb161d
+,_PageMetadata,CustomMetaData,Name Value List,167aba77-5172-42af-9f9e-00299113839e
+,_PageMetadata,MetaDescription,Multi-Line Text,bb7a38c0-323c-4f81-8eb9-288abf7c4638
+,_PageMetadata,MetaKeywords,Treelist,4b16f930-73c9-4643-bb1b-00f06e60a073
+,_PageMetadata,SeoFollowLinks,Checkbox,0dca829c-9fce-41f5-9990-c6182fefe905
+,_Person,Name,Single-Line Text,26cd59ab-3639-488f-bafd-58d2b217755a
+,_Person,Picture,Image,c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+,_Person,Summary,Multi-Line Text,b897023c-15d2-49f3-8974-06fa5fb7ad00
+,_Person,Title,Single-Line Text,76972fcd-4bb0-4255-864e-077745efdf50
+
+

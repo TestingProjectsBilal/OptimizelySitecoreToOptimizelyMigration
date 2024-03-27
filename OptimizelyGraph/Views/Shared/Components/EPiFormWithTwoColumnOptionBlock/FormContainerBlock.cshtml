@@ -1,0 +1,17 @@
+@model EPiFormWithTwoColumnOptionBlock
+
+@{
+    async void RenderFormBody()
+    {
+        if (Model.HasTwoColumns)
+        {
+            <div class="Form__Status">
+                <span class="Form__Readonly__Message">
+                    <h2>Has two columns</h2>
+                </span>
+            </div>
+        }
+    }
+
+    //RenderFormBody().Wait(); // Invoke the async method synchronously
+}

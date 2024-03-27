@@ -1,0 +1,2 @@
+﻿delete from AspNetUsers
+

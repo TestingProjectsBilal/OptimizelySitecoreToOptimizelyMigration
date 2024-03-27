@@ -1,0 +1,20 @@
+@model TeaserBlock
+@using OptimizelyGraph.Business.Rendering
+@using PictureRenderer.Optimizely;
+
+<div class="row align-items-center">
+    <div class="col-sm-12 col-lg-6" epi-property="@Model.Image">
+        @Html.Picture(Model.Image, PictureProfiles.TeaserWide, cssClass: "pb-3 pb-lg-0")
+    </div>
+    <div class="col-sm-12 col-lg-6 text-lg-start">
+        @*Link the teaser block only if a link has been set and not displayed in preview*@
+        @using (Html.BeginConditionalLink(
+            !ContentReference.IsNullOrEmpty(Model.Link) && !(Html.ViewContext.IsPreviewMode()),
+            Url.PageLinkUrl(Model.Link),
+            Model.Heading))
+        {
+            <h2 epi-property="@Model.Heading">@Model.Heading</h2>
+            <p epi-property="@Model.Text">@Model.Text</p>
+        }
+    </div>
+</div>
